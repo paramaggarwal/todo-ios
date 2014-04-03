@@ -283,11 +283,20 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Add To-Do Item" id="pqh-LE-2Eu">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="zFV-bZ-2Kj"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="fpk-sG-U7v"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="zFV-bZ-2Kj">
+                            <connections>
+                                <segue destination="H4o-1r-XUI" kind="unwind" unwindAction="unwindToList:" id="NfK-yf-24g"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="fpk-sG-U7v">
+                            <connections>
+                                <segue destination="H4o-1r-XUI" kind="unwind" unwindAction="unwindToList:" id="ZZ4-Fi-j6l"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MjG-N8-hPu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="H4o-1r-XUI" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1548" y="-353"/>
         </scene>
