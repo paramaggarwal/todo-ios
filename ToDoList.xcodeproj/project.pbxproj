@@ -19,6 +19,7 @@
 		8B56078918ED9C1C00B60931 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B56077118ED9C1B00B60931 /* UIKit.framework */; };
 		8B56079118ED9C1C00B60931 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B56078F18ED9C1C00B60931 /* InfoPlist.strings */; };
 		8B56079318ED9C1C00B60931 /* ToDoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B56079218ED9C1C00B60931 /* ToDoListTests.m */; };
+		8B56079D18ED9CB200B60931 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B56079C18ED9CB200B60931 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		8B56078E18ED9C1C00B60931 /* ToDoListTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToDoListTests-Info.plist"; sourceTree = "<group>"; };
 		8B56079018ED9C1C00B60931 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8B56079218ED9C1C00B60931 /* ToDoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoListTests.m; sourceTree = "<group>"; };
+		8B56079C18ED9CB200B60931 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		8B56077318ED9C1B00B60931 /* ToDoList */ = {
 			isa = PBXGroup;
 			children = (
+				8B56079C18ED9CB200B60931 /* Main.storyboard */,
 				8B56077C18ED9C1B00B60931 /* TDLAppDelegate.h */,
 				8B56077D18ED9C1B00B60931 /* TDLAppDelegate.m */,
 				8B56077F18ED9C1B00B60931 /* Images.xcassets */,
@@ -220,6 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B56079D18ED9CB200B60931 /* Main.storyboard in Resources */,
 				8B56077818ED9C1B00B60931 /* InfoPlist.strings in Resources */,
 				8B56078018ED9C1B00B60931 /* Images.xcassets in Resources */,
 			);
