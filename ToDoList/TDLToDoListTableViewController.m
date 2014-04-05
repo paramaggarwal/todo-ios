@@ -7,12 +7,30 @@
 //
 
 #import "TDLToDoListTableViewController.h"
+#import "TDLToDoItem.h"
 
 @interface TDLToDoListTableViewController ()
+
+@property NSMutableArray *toDoItems;
 
 @end
 
 @implementation TDLToDoListTableViewController
+
+- (void)loadInitialData {
+    TDLToDoItem *item1 = [[TDLToDoItem alloc] init];
+    item1.itemName = @"Buy milk";
+    [self.toDoItems addObject:item1];
+    
+    TDLToDoItem *item2 = [[TDLToDoItem alloc] init];
+    item2.itemName = @"Buy eggs";
+    [self.toDoItems addObject:item2];
+    
+    TDLToDoItem *item3 = [[TDLToDoItem alloc] init];
+    item3.itemName = @"Read a book";
+    [self.toDoItems addObject:item3];
+    
+}
 
 - (IBAction)unwindToList:(UIStoryboardSegue *)segue
 {
@@ -31,6 +49,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    self.toDoItems = [[NSMutableArray alloc] init];
+    
+    [self loadInitialData];
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
