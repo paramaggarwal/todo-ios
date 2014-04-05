@@ -124,9 +124,9 @@
 				8B5607A018EDB2DE00B60931 /* TDLAddToDoItemViewController.h */,
 				8B5607A118EDB2DE00B60931 /* TDLAddToDoItemViewController.m */,
 				8B5607AC18EDB57E00B60931 /* TDLToDoListTableViewController.h */,
+				8B5607AD18EDB57E00B60931 /* TDLToDoListTableViewController.m */,
 				8B5607AF18F0236700B60931 /* TDLToDoItem.h */,
 				8B5607B018F0236700B60931 /* TDLToDoItem.m */,
-				8B5607AD18EDB57E00B60931 /* TDLToDoListTableViewController.m */,
 				8B56077F18ED9C1B00B60931 /* Images.xcassets */,
 				8B56077418ED9C1B00B60931 /* Supporting Files */,
 			);
